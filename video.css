@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+body {
+    background: #F9F9F9;
+}
+
+img {
+    cursor: pointer;
+}
+
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.flexDiv {
+    display: flex;
+    align-items: center;
+}
+
+.navRight img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.navRight .userIcon {
+    width:  35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+.navLeft .menuIcon {
+    width: 22px;
+    margin-right: 25px;
+}
+
+.navLeft .logoIcon {
+    width: 100px;
+}
+
+.searchBox {
+    border: 1px solid #D3D3D3;
+    margin-right: 15px;
+    padding: 8px 12px;
+}
+
+.searchBox input {
+    width: 600px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.searchBox img {
+    width: 15px;
+}
+
+.container {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.rightSidebar {
+    flex-basis: 30%;
+}
+
+.playVideo {
+    flex-basis: 50%;
+    margin-left: 4%;
+}
+
+.sideVideoList {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.sideVideoList img {
+    width: 100%;
+}
+
+.sideVideoList .smallTumbnail {
+    flex-basis: 49%;
+}
+
+.sideVideoList .vidInfo {
+    flex-basis: 49%;
+}
+
+.vidInfo {
+    color: #5a5a5a;
+    font-size: 13px;
+}
+
+.vidInfo a {
+    color: #000;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.vidInfo p {
+    margin-bottom: 5px;
+}
+
+.playVideo .tags a{
+    color: #0000ff;
+    font-size: 13px;
+}
+
+.playVideo h3 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.playVideo .playVideoInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.playVideo .playVideoInfo a img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.playVideo .playVideoInfo a {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+}

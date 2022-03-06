@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+body {
+    background: #F9F9F9;
+}
+
+img {
+    cursor: pointer;
+}
+
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.flexDiv {
+    display: flex;
+    align-items: center;
+}
+
+.navRight img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.navRight .userIcon {
+    width:  35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+.navLeft .menuIcon {
+    width: 22px;
+    margin-right: 25px;
+}
+
+.navLeft .logoIcon {
+    width: 100px;
+}
+
+.searchBox {
+    border: 1px solid #D3D3D3;
+    margin-right: 15px;
+    padding: 8px 12px;
+}
+
+.searchBox input {
+    width: 600px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.searchBox img {
+    width: 15px;
+}
+
+.sideBar {
+    background: #fff;
+    width: fit-content;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 80px;
+}
+
+.shortcutLinks a svg {
+    width: 15px;
+}
+
+.shortcutLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 25px;
+    flex-wrap: wrap;
+}
+
+.shortcutLinks p {
+    font-size: 11px;
+    color: black;
+}
+
+.container {
+    padding: 20px 2% 20px 8%;
+}
+
+.listVideos {
+    display: flex;
+    margin-top: 15px;
+}
+
+.card .tumbnail {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card .flexDiv {
+    align-items: flex-start;
+    margin-top: 7px;
+}
+
+.card .flexDiv img {
+    width: 32px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.vidInfo {
+    color: #5a5a5a;
+    font-size: 13px;
+}
+
+.vidInfo a {
+    color: #000;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.vidInfo p {
+    margin-bottom: 5px;
+}
+
+.container {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.rightSidebar {
+    flex-basis: 30%;
+}
+
+.playVideo {
+    flex-basis: 50%;
+    margin-left: 4%;
+}
+
+.sideVideoList {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.sideVideoList img {
+    width: 100%;
+}
+
+.sideVideoList .smallTumbnail {
+    flex-basis: 49%;
+}
+
+.sideVideoList .vidInfo {
+    flex-basis: 49%;
+}
+
+.vidInfo {
+    color: #5a5a5a;
+    font-size: 13px;
+}
+
+.vidInfo a {
+    color: #000;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.vidInfo p {
+    margin-bottom: 5px;
+}
