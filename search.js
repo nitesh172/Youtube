@@ -1,4 +1,4 @@
-var api = "AIzaSyDVGxTXK7nD9rq6t3BE46WAy2U5qwLDUVU";
+var api = "AIzaSyA-0VdmxIIHTxrY_gFDsNgRQEO015g-7sI";
 
 var video = localStorage.getItem("video") || "";
 var videoNameData = localStorage.getItem("videodata") || "" ;
@@ -34,7 +34,7 @@ var appendVideo = (data) => {
         img.setAttribute("class", "tumbnail");
         a.append(img);
         a.addEventListener("click", () => {
-            localStorage.setItem("video", id);
+            localStorage.setItem("video", id.videoId);
             window.location.href = "video.html";
         });
         var flexDiv = document.createElement("div");

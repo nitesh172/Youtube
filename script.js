@@ -1,4 +1,4 @@
-var api = "AIzaSyDVGxTXK7nD9rq6t3BE46WAy2U5qwLDUVU";
+var api = "AIzaSyA-0VdmxIIHTxrY_gFDsNgRQEO015g-7sI";
 
 
 var url = `https://youtube.googleapis.com/youtube/v3/search?q=weather%20website&type=video&key=AIzaSyCuiuxlWG8V41FWde12SyHUTyYihcfcSTY`;

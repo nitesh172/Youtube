@@ -1,7 +1,7 @@
 var video = localStorage.getItem("video");
 
 document.getElementById("videoplayback").setAttribute("src", `https://www.youtube.com/embed/${video}`);
-var api = "AIzaSyDVGxTXK7nD9rq6t3BE46WAy2U5qwLDUVU"
+var api = "AIzaSyA-0VdmxIIHTxrY_gFDsNgRQEO015g-7sI"
 
 
 var url3i = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&part=id&id=${video}&key=${api}`
